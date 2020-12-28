@@ -1,0 +1,62 @@
+:root{
+	--primaryColor: red;
+
+	--backgroundColor: white;
+	--onBackgroundColor: black;
+};
+
+body{
+	font-family: futura;
+	margin: auto;
+}
+
+body{
+	display: flex;
+	gap: 1em;
+	background-color: var(--backgroundColor);
+	color: var(--onBackgroundColor);
+}
+
+article{
+	max-height: 90vh;
+}
+
+article>p{
+	float: left;
+	display: block;
+}
+
+article>p>img{
+}
+
+
+header{
+	color: var(--primaryColor);
+}
+nav{
+	color: var(--primaryColor);
+	min-width: 10em;
+	/*position: fixed;*/
+	/*left: 0;*/
+	/*background-color: white;*/
+	/*padding: 19px;*/
+	/*box-shadow: 3px 3px 3px rgba(0,0,0,0.3);*/
+}
+
+/* COMPONENTS */
+h1{
+	margin: 0;
+}
+/* Navigation */
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav a{
+	color: inherit;
+	text-decoration: none
+}
+nav a:hover{
+	text-decoration: underline;
+}
