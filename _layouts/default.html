@@ -16,14 +16,14 @@
 	<nav>
 		<ul class="posts">
 			{% for post in site.posts %}
-		    <li><a href="{{ post.url | prepend: site.baseurl }}" class="{% if page.url == post.url %}active{% endif %}">{{post.title}}</a>
+		    <li><a href="{{site.baseurl}}/{{ post.url | prepend: site.baseurl }}" class="{% if page.url == post.url %}active{% endif %}">{{post.title}}</a>
 		    </li>
 		  	{% endfor %}
 		</ul>
 		<ul class="pages">
 			{% for page in site.pages %}
 			{% unless page.exclude %}
-		    <li><a href="{{ page.url | prepend: site.baseurl }}">{{page.title}}</a></li>
+		    <li><a href="{{site.baseurl}}/{{ page.url | prepend: site.baseurl }}">{{page.title}}</a></li>
 		    {% endunless %}
 		  	{% endfor %}
 		</ul>
