@@ -7,6 +7,7 @@ typora-root-url: ../
 ---
 
 ![cetlifestmeny2](/assets/media/cetlifestmeny2.jpg)
+_cetlifestmeny_
 
 ![Fischer Judit 58 sRGB JPEG 72ppi](/assets/media/Fischer Judit 58 sRGB JPEG 72ppi.jpg)
 
