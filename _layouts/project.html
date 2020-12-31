@@ -42,6 +42,14 @@
 	<article class="{{page.title}}">
 		<h2>{{page.title}}</h2>
 		{{page.content | markdownify}}
+		{% for item in page.gallery %}
+		<figure>
+			<img src="{{item.image_path}}"></img>
+			<figcaption>
+				{{item.caption}}
+			</figcaption>
+		</figure>
+		{% endfor %}
 	</article>
 
 	<footer>
