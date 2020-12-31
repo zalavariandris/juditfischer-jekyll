@@ -1,0 +1,29 @@
+# Everything you need to know about configuring the CMS can be found here:-
+# https://www.netlifycms.org/docs/configuration-options/
+
+backend:
+  name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
+  branch: master # Branch to update (master by default)
+  squash_merges: true
+
+media_folder: "assets/media" # Folder where user uploaded files should go
+
+collections:
+    # PROJECTS
+  - name: "project"
+    label: "Project"
+    folder: "_projects"
+    sort: "title:asc"
+    create: true
+    slug: "projects/{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Description", name: "description", widget: "string", tagname: "p"}
+      - label: "Gallery"
+        name: "galleryImages"
+        widget: "list"
+        summary: '{{fields.image}}'
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Caption", name: "caption", widget: "string"}
