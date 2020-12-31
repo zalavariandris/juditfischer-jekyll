@@ -2,18 +2,6 @@ title: "Judit Fischer" # the name of your site, e.g. ACME Corp.
 exclude: ['README.md']
 url: "juditfischer.com"
 
-plugins:
-  - jekyll-admin
-
-jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
-  homepage: "posts"
-
 collections:
   posts:
     output: true
