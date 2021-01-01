@@ -2,9 +2,8 @@
 title: Itt nyugszik a nap
 layout: default
 year: 2013
-
-typora-copy-images-to: ../assets/media
-typora-root-url: ../
+typora-copy-images-to: "../assets/media"
+typora-root-url: "../"
 ---
 
 ![Fischer Judit 38 sRGB 72ppi 1920px](/assets/media/Fischer Judit 38 sRGB 72ppi 1920px.jpg)

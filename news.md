@@ -1,6 +1,6 @@
 ---
-layout: default
 title: news
+layout: default
 exclude: true
 ---
 

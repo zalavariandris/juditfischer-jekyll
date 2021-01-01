@@ -1,6 +1,6 @@
 ---
-layout: default
 title: cv
+layout: default
 ---
 
 1981, born in Zalaegerszeg

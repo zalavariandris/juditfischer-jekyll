@@ -1,11 +1,11 @@
 ---
-layout: default
 title: All Good
+layout: default
 year: 2011
-typora-copy-images-to: ../assets/media
-typora-root-url: ../
+typora-copy-images-to: "../assets/media"
+typora-root-url: "../"
 gallery:
-  - image: 
+- image: 
 ---
 
 ![Fischer Judit 29](/assets/media/Fischer Judit 29.jpg)_gyurma_

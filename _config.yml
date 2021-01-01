@@ -1,11 +1,18 @@
-title: "Judit Fischer" # the name of your site, e.g. ACME Corp.
-exclude: ['README.md']
-url: "juditfischer.com"
-
-permalink: pretty
-
+---
+title: Judit Fischer
+timezone: UTC
 collections:
-  projects:
+  posts:
+    title: Posts
     output: true
-    permalink: /:name
-
+  projects:
+    title: Projects
+    output: true
+    permalink: "/:name"
+  uploads:
+    title: Uploads
+    output: true
+exclude:
+- README.md
+url: juditfischer.com
+permalink: pretty

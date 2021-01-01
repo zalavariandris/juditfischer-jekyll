@@ -2,9 +2,8 @@
 title: Tawaii
 layout: default
 year: 2009
-
-typora-copy-images-to: ../assets/media
-typora-root-url: ../
+typora-copy-images-to: "../assets/media"
+typora-root-url: "../"
 ---
 
 ![Fischer Judit 14 sRGB 72ppi 1920px](/assets/media/Fischer Judit 14 sRGB 72ppi 1920px.jpg)

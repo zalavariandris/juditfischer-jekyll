@@ -2,9 +2,8 @@
 title: Faux Fauves
 layout: default
 year: 2017
-
-typora-copy-images-to: ../assets/media
-typora-root-url: ../
+typora-copy-images-to: "../assets/media"
+typora-root-url: "../"
 ---
 
 ![IKNI6094](/assets/media/IKNI6094.JPG)

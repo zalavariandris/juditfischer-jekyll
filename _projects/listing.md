@@ -1,12 +1,10 @@
 ---
-layout: default
-permalink: /listing
-
 title: Listing
+permalink: "/listing"
+layout: default
 year: 2018
-
-typora-copy-images-to: ../assets/media
-typora-root-url: ../
+typora-copy-images-to: "../assets/media"
+typora-root-url: "../"
 ---
 
 ![judit_fischer_12_colour_brush_2007_aquarelle_paper_41x48](/assets/media/judit_fischer_12_colour_brush_2007_aquarelle_paper_41x48.jpg)

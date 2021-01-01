@@ -2,9 +2,8 @@
 title: Understatement
 layout: default
 year: 2013
-
-typora-copy-images-to: ../assets/media
-typora-root-url: ../
+typora-copy-images-to: "../assets/media"
+typora-root-url: "../"
 ---
 
 ![aaIMG_5263](/assets/media/aaIMG_5263.jpg)
