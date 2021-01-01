@@ -2,17 +2,11 @@
 title: Understatement
 layout: default
 year: 2013
-typora-copy-images-to: "../assets/media"
-typora-root-url: "../"
+gallery:
+  -image: /_uploads/aaIMG_5263.jpg
+  -image: /_uploads/aaIMG_5428.jpg
+  -image: /_uploads/aaIMG_5453.jpg
+  -image: /_uploads/festékhurka.jpg
+  -image: /_uploads/gyurmaszallito.jpg
 ---
-
-![aaIMG_5263](/assets/media/aaIMG_5263.jpg)
-
-![aaIMG_5428](/assets/media/aaIMG_5428.jpg)
-
-![aaIMG_5453](/assets/media/aaIMG_5453.jpg)
-
-![festékhurka](/assets/media/festékhurka.jpg)
-
-![gyurmaszallito](/assets/media/gyurmaszallito.jpg)
 

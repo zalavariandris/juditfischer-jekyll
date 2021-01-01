@@ -2,28 +2,16 @@
 title: I am too sercli
 layout: default
 year: 2017
-typora-copy-images-to: "../assets/media"
-typora-root-url: "../"
+gallery:
+  - image: /_uploads/cetlifestmeny2.jpg
+    caption: _cetlifestmeny_
+  - image: /_uploads/Fischer Judit 58 sRGB JPEG 72ppi.jpg
+  - image: /_uploads/Fischer Judit Paletták.jpg
+  - image: /_uploads/IMG_6488.JPG
+  - image: /_uploads/IMG_6491.JPG
+  - image: /_uploads/IMG_6501.JPG
+  - image: /_uploads/IMG_6546 copy.JPG
+  - image: /_uploads/IMG_6552.JPG
+  - image: /_uploads/szappan.jpg
+  - image: /_uploads/szappan2.jpg
 ---
-
-![cetlifestmeny2](/assets/media/cetlifestmeny2.jpg)
-_cetlifestmeny_
-
-![Fischer Judit 58 sRGB JPEG 72ppi](/assets/media/Fischer Judit 58 sRGB JPEG 72ppi.jpg)
-
-![Fischer Judit Paletták](/assets/media/Fischer Judit Paletták.jpg)
-
-![IMG_6488](/assets/media/IMG_6488.JPG)
-
-![IMG_6491](/assets/media/IMG_6491.JPG)
-
-![IMG_6501](/assets/media/IMG_6501.JPG)
-
-![IMG_6546 copy](/assets/media/IMG_6546 copy.JPG)
-
-![IMG_6552](/assets/media/IMG_6552.JPG)
-
-![szappan](/assets/media/szappan.jpg)
-
-![szappan2](/assets/media/szappan2.jpg)
-
