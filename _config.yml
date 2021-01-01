@@ -16,3 +16,14 @@ exclude:
 - README.md
 url: juditfischer.com
 permalink: pretty
+
+defaults:
+  - scope:
+      type: "projects"
+    values:
+      layout: default
+      title: --Title--
+      gallery:
+        - image: http://placekitten.com/200/300
+          description: ""
+    
