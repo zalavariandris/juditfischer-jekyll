@@ -21,7 +21,7 @@ defaults:
     title: "--Title--"
     gallery:
     - image: http://placekitten.com/200/300
-      description: ''
+      caption: ''
 exclude:
 - README.md
 url: juditfischer.com
