@@ -1,6 +1,7 @@
 ---
 title: Halamandzsa
 layout: default
+year: 2015
 
 typora-copy-images-to: ../assets/media
 typora-root-url: ../

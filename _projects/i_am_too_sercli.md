@@ -1,6 +1,7 @@
 ---
 title: I am too sercli
 layout: default
+year: 2017
 
 typora-copy-images-to: ../assets/media
 typora-root-url: ../

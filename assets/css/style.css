@@ -89,8 +89,6 @@ article{
 	height: 74vh;
 }
 
-
-
 article>h2{
 	/*border: 1em var(--primaryColor) dashed;*/
 	/*text-decoration: underline;*/
@@ -125,6 +123,15 @@ h1{
 	margin-bottom: -0.12em;
 }
 
+
+/* LINKS */
+h1>a, h2>a, h3>a{
+	color: inherit;
+	text-decoration: none;
+}
+h1>a, h2>a, h3>a:hover{
+	text-decoration: underline;
+}
 /* NAVIGATION */
 nav a{
 	white-space: nowrap;
@@ -173,4 +180,40 @@ body.cv>article{
 }
 body.cv>article>p{
 	display: block;
+	margin-right: 1em !important;
+}
+
+article.news{
+	font-size: 12px;
+	display: block;
+	column-width: 16em;
+}
+
+article.news h2{
+	height: auto;
+}
+
+article.news img{
+	width: 100%;
+}
+article.news figure{
+	margin: 0;
+}
+article.news>*{
+	margin-right: 2em !important;
+}
+article.news .surface h3{
+	margin: 0;
+}
+article.news .surface p{
+	margin: 0;
+}
+article.news .surface::after{
+	content: "";
+	display: block;
+	width: 100%;
+	margin: 3em auto;
+	/*margin: auto;*/
+
+	border-bottom: 1px solid lightgrey;
 }

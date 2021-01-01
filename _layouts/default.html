@@ -13,17 +13,24 @@
 			Judit<br/>Fischer
 		</h1>
 		<nav>
-			<ul class="projects">
-				{% for project in site.projects %}
-				<li><a href="{{ project.url }}">{{ project.title }}</a></li>
-				{% endfor %}
-			</ul>
-			<ul class="posts">
-				{% for post in site.posts %}
-			    <li><a href="{{ post.url | relative_url }}" class="{% if page.url == post.url %}active{% endif %}">{{post.title}}</a>
-			    </li>
-			  	{% endfor %}
-			</ul>
+
+			{% for collection in site.collections %}
+			{% unless collection.label == "posts" %}
+				<ul class="{{collection.label}}">
+					{% assign pages_by_date = site[collection.label] | sort: "year" | reverse %}
+					{% for page in pages_by_date %}
+						{% unless page.exclude %}
+
+					    <li><a href="{{ page.url | relative_url }}">
+
+					    {{page.title | default: page.name | split: "." | first}}
+
+					  	</a></li>
+					    {% endunless %}
+					{% endfor %}
+				</ul>
+			{% endunless %}
+			{% endfor %}
 			<ul class="pages">
 				{% for page in site.pages %}
 				{% unless page.exclude %}
@@ -41,7 +48,7 @@
 	
 	<article class="{{page.title}}">
 		<h2>{{page.title}}</h2>
-		{{page.content | markdownify}}
+		{{content}}
 	</article>
 
 	<footer>

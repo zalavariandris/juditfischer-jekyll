@@ -1,6 +1,7 @@
 ---
 title: Itt nyugszik a nap
 layout: default
+year: 2013
 
 typora-copy-images-to: ../assets/media
 typora-root-url: ../

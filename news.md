@@ -1,6 +1,20 @@
 ---
 layout: default
 title: news
+exclude: true
 ---
 
-no news yet. come back later.
+{% for post in site.posts %}
+<div class="surface">
+<figure>
+	<img width="100px" src="{{post.feature_image}}">
+</figure>
+<h3>
+	<a href="{{ post.url }}">
+		{{ post.title }}
+	</a>
+</h3>
+<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+{{ post.excerpt }}
+</div>
+{% endfor %}

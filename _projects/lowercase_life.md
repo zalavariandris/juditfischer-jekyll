@@ -1,6 +1,7 @@
 ---
 title: Lowercase Life
 layout: default
+year: 2009
 
 typora-copy-images-to: ../assets/media
 typora-root-url: ../

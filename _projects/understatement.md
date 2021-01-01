@@ -1,6 +1,7 @@
 ---
 title: Understatement
 layout: default
+year: 2013
 
 typora-copy-images-to: ../assets/media
 typora-root-url: ../

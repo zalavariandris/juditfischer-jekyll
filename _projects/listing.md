@@ -1,7 +1,10 @@
 ---
-title: Listing
 layout: default
 permalink: /listing
+
+title: Listing
+year: 2018
+
 typora-copy-images-to: ../assets/media
 typora-root-url: ../
 ---
