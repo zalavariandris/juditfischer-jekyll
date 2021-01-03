@@ -6,5 +6,5 @@ layout: default
 
 This is my super roller post, inspired by Masa herself.
 
-üdv,
+udv,
 Judit
