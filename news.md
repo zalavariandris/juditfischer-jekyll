@@ -1,5 +1,6 @@
 ---
 title: news
+position: 2
 layout: default
 exclude: true
 ---
