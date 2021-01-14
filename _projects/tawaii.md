@@ -1,5 +1,6 @@
 ---
 title: Tawaii
+position: 10
 layout: default
 year: 2009
 gallery:

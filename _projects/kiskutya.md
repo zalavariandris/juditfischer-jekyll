@@ -1,5 +1,6 @@
 ---
 title: kiskutya
+position: 6
 layout: default
 year: 2014
 gallery:

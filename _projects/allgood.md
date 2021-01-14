@@ -1,5 +1,6 @@
 ---
 title: All Good
+position: 1
 layout: default
 year: 2011
 gallery:

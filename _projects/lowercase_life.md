@@ -1,5 +1,6 @@
 ---
 title: Lowercase Life
+position: 8
 layout: default
 year: 2009
 gallery:

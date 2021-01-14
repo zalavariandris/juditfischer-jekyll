@@ -1,5 +1,6 @@
 ---
 title: Itt nyugszik a nap
+position: 5
 layout: default
 year: 2013
 gallery:

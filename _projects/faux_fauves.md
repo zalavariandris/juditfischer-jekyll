@@ -1,5 +1,6 @@
 ---
 title: Faux Fauves
+position: 2
 layout: default
 year: 2017
 gallery:

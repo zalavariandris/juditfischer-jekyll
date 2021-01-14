@@ -1,5 +1,6 @@
 ---
 title: Halamandzsa
+position: 3
 layout: default
 year: 2015
 gallery:

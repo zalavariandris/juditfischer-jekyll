@@ -1,6 +1,7 @@
 ---
 title: Listing
 permalink: "/listing"
+position: 7
 layout: default
 year: 2018
 gallery:
